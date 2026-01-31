@@ -1,53 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Resume</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manoj Bhatt | Software Development Engineer</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 40px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      margin-bottom: 5px;
+      font-size: 32px;
+    }
+    h2 {
+      margin-top: 30px;
+      font-size: 22px;
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 5px;
+    }
+    h3 {
+      margin-bottom: 5px;
+      font-size: 18px;
+    }
+    .subtitle {
+      color: #555;
+      font-size: 16px;
+    }
+    .contact {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    .contact a {
+      color: #0066cc;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+    ul {
+      margin: 10px 0 0 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .section {
+      margin-top: 25px;
+    }
+    .skills span {
+      display: inline-block;
+      background: #eef3f8;
+      padding: 6px 10px;
+      margin: 5px 5px 0 0;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 12px;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Your Name</h1>
-            <p>Web Developer | Software Engineer | Data Analyst</p>
-            <p>Email: your.email@example.com | Phone: +123-456-7890</p>
-            <p><a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> | 
-               <a href="https://github.com/yourusername" target="_blank">GitHub</a></p>
-        </header>
-        <hr>
-        <section>
-            <h2>Education</h2>
-            <ul>
-                <li><strong>Bachelor of Science in Computer Science</strong>, XYZ University (2018 - 2022)</li>
-            </ul>
-        </section>
-        <hr>
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming Languages: HTML, CSS, JavaScript, Python, Java</li>
-                <li>Frameworks & Libraries: React, Node.js, Django</li>
-                <li>Tools: Git, GitHub, Docker</li>
-            </ul>
-        </section>
-        <hr>
-        <section>
-            <h2>Work Experience</h2>
-            <ul>
-                <li><strong>Software Engineer</strong> at ABC Corp (2022 - Present)</li>
-                <li><strong>Intern</strong> at DEF Inc (2021 - 2022)</li>
-            </ul>
-        </section>
-        <hr>
-        <section>
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>Project 1:</strong> Description of the project you worked on, technologies used.</li>
-                <li><strong>Project 2:</strong> Another project and details about it.</li>
-            </ul>
-        </section>
-    </div>
+  <div class="container">
+    <header>
+      <h1>Manoj Bhatt</h1>
+      <div class="subtitle">Software Development Engineer | Java | DevOps | Cloud</div>
+      <div class="contact">
+        <a href="mailto:reachbhatt@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/manoj-bhatt-25640622/" target="_blank">LinkedIn</a>
+        <span>India</span>
+      </div>
+    </header>
+
+    <section class="section">
+      <h2>Professional Summary</h2>
+      <p>
+        Senior Software Engineer with 11+ years of experience in building scalable, reliable systems.
+        Strong background in Java development, DevOps practices, cloud infrastructure, and production-grade systems.
+        Experienced in CI/CD, monitoring, containerization, and modern backend architectures.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>Java</span>
+        <span>Spring Boot</span>
+        <span>Microservices</span>
+        <span>Docker</span>
+        <span>Kubernetes</span>
+        <span>CI/CD</span>
+        <span>Git</span>
+        <span>Prometheus</span>
+        <span>Grafana</span>
+        <span>AWS</span>
+        <span>Linux</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Professional Experience</h2>
+
+      <h3>Senior Software Engineer</h3>
+      <div class="subtitle">Company Name | YYYY – Present</div>
+      <ul>
+        <li>Designed and developed scalable backend services using Java and Spring Boot.</li>
+        <li>Implemented CI/CD pipelines and improved deployment reliability.</li>
+        <li>Worked on Kubernetes-based deployments, canary releases, and monitoring.</li>
+        <li>Collaborated with cross-functional teams to deliver production-ready features.</li>
+      </ul>
+
+      <h3>Software Engineer</h3>
+      <div class="subtitle">Previous Company | YYYY – YYYY</div>
+      <ul>
+        <li>Built and maintained enterprise-grade Java applications.</li>
+        <li>Optimized performance and resolved production issues.</li>
+        <li>Contributed to system design discussions and code reviews.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Project Name:</strong> Short description of the project, your role, and impact.</li>
+        <li><strong>Project Name:</strong> Short description highlighting technologies used.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Education</h2>
+      <h3>Degree Name</h3>
+      <div class="subtitle">University / College | Year</div>
+    </section>
+
+    <section class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Certification Name – Issuer</li>
+      </ul>
+    </section>
+
+    <footer>
+      © 2026 Manoj Bhatt · Hosted on GitHub Pages
+    </footer>
+  </div>
 </body>
 </html>
